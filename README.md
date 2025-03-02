@@ -1,6 +1,8 @@
 # Company Brochure using LLM (Llama 3.2) and Web-scraping
-# Overview
+
 This project scrapes web pages, extracts relevant company information, and generates a **professional brochure** using a LLM model. It filters and structures extracted data to create concise and informative content
+
+![brochure](https://github.com/user-attachments/assets/5c78fb22-4846-482f-8d76-a1c031e07208)
 
 # Features
 User just insert link to main page! The code will scrape through all the links in that web page and extract:
