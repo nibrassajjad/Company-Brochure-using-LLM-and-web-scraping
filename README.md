@@ -30,7 +30,7 @@ Open file `webpagebrochure.ipynb` and run through the steps with instructions in
 - Python 3.x
 - Required Python libraries: beautifulsoup4 ollama
 
-You can experiment with other LLM models than using Ollama (e.g. GPT-4). For quick guide on how to load models using API key refer to **Step 4b** of my code in:
+You can experiment with other LLM models instead of using Ollama (e.g. GPT-4). For quick guide on how to load models using API key refer to **Step 4b** of my code in:
 https://github.com/nibrassajjad/Webpage-Descriptor-using-LLM/blob/main/Webpage%20Descriptor.ipynb
 
 # Limitations
