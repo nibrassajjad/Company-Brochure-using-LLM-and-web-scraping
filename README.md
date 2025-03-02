@@ -33,6 +33,12 @@ Open file `webpagebrochure.ipynb` and run through the steps with instructions in
 You can experiment with other LLM models than using Ollama (e.g. GPT-4). For quick guide on how to load models using API key refer to **Step 4b** of my code in:
 https://github.com/nibrassajjad/Webpage-Descriptor-using-LLM/blob/main/Webpage%20Descriptor.ipynb
 
+# Limitations
+This is an experimental model in its early stages, so it may have some overlooked limitations. If you encounter any issues, feel free to reach out.
+
+Known limitations:
+- The links should have well-structured names that relate to the title of their respective pages to help the LLM make accurate decisions.
+
 # License
 This project is open-source and available under the MIT License.
 
