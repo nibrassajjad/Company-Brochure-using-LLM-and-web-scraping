@@ -28,7 +28,7 @@ Open file `webpagebrochure.ipynb` and run through the steps with instructions in
 
 # Installation prequisites
 - Python 3.x
-- Required Python libraries: beautifulsoup4 ollama
+- Required Python libraries: beautifulsoup4 ollama urljoin requests gradio time
 
 You can experiment with other LLM models instead of using Ollama (e.g. GPT-4). For quick guide on how to load models using API key refer to **Step 4b** of my code in:
 https://github.com/nibrassajjad/Webpage-Descriptor-using-LLM/blob/main/Webpage%20Descriptor.ipynb
