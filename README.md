@@ -24,7 +24,9 @@ User just insert link to main page! The code will scrape through all the links i
 - **Coming Soon:** User-interface to easily interact rather than running through the cell boxes!
 
 # How to use
-Open file `webpagebrochure.ipynb` and run through the steps with instructions inside. **If you are using downloaded Llama 3.2 model, make sure it is turned on/activated in your computer.**
+
+## Option 1: In Jupyter Notebook/Jupyter Lab (Debug mode)
+Open file [`webpagebrochure.ipynb`](https://github.com/nibrassajjad/Company-Brochure-using-LLM-and-web-scraping/blob/main/webpagebrochure.ipynb) and run through the steps with instructions inside. **If you are using downloaded Llama 3.2 model, make sure it is turned on/activated in your computer.**
 
 # Installation prequisites
 - **Python 3.x**
