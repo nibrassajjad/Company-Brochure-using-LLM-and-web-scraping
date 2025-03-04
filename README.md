@@ -39,6 +39,7 @@ https://github.com/nibrassajjad/Webpage-Descriptor-using-LLM/blob/main/Webpage%2
 This is an experimental model in its early stages, so it may have some overlooked limitations. If you encounter any issues, feel free to reach out.
 
 Known limitations:
+- If you are using the coded Llama 3.2 model, you might get not well-detailed content due to model's limitations. You can retry to see if you can get better brochure.
 - The links should have well-structured names that relate to the title of their respective pages to help the LLM make accurate decisions.
 - If you're using the offline Llama 3.2 model, the brochure generation may suffer from hallucinated content due to the token limit. This happens when the context window overflows with the scraped content. Using a more powerful LLM, like GPT-4o mini, could help mitigate this issue.
 - Abnormal results will be generated if you are not linking the main page of the website.
