@@ -167,9 +167,19 @@ def process_url(url):
 
     # Step 1: Get filtered links
     filter_links = filter_relevant_links(web.links)
-    time.sleep(15)
-    
-    if not filter_links:  # If no relevant links are found, return an error message
+
+    # Wait until filter_links has contents, try up to 15 times
+    attempts = 0
+    max_attempts = 15
+
+    while not filter_links and attempts < max_attempts:
+        print(f"Waiting for relevant links... Attempt {attempts + 1}/{max_attempts}")
+        time.sleep(5)  # Wait for 5 seconds before checking again
+        filter_links = filter_relevant_links(web.links)
+        attempts += 1
+
+    # If no relevant links are found, return an error message
+    if not filter_links:
         yield "<p style='text-align: center; font-size: 18px;'><br><b><b>❌ No relevant links found. Try again. ❌</p>"
         return
 
