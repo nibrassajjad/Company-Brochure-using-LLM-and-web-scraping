@@ -2,7 +2,12 @@
 
 This project scrapes web pages, extracts relevant company information, and generates a **professional brochure** using a LLM model. It filters and structures extracted data to create concise and informative content
 
-![brochure](https://github.com/user-attachments/assets/5c78fb22-4846-482f-8d76-a1c031e07208)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5c78fb22-4846-482f-8d76-a1c031e07208" width="800" />
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ba8f3b93-6bec-4378-a3e6-350347b4b424" width="1000" />
+</p>
 
 # Features
 User just insert link to main page! The code will scrape through all the links in that web page and extract:
