@@ -86,6 +86,8 @@ To run the program, you need to install some dependency files that can be easily
   <img src="https://github.com/user-attachments/assets/9eab5810-7d75-4baf-b28e-7f9a0707ee3c" width="500" />
 </p>
 
+- From next time onwards, you can just follow **Step 5** and **Step 6** to run the program (given you do not change the file directories).
+
 ## Limitations:
 
 - Due to Llama 3.2 model's limitations, user might not get well-detailed content. You can try 2 to 3 times to see if you get a better brochure. If you want to try using other models, feel free to fork the repository and modify the code.
