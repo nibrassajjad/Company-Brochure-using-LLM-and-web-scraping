@@ -26,7 +26,7 @@ User just insert link to main page! The code will scrape through all the links i
 
 - Ensures the generated brochure is well-structured, concise, and relevant
 
-- **Coming Soon:** User-interface to easily interact rather than running through the cell boxes!
+- An User-friendly setup mode that enables you to interact with the program via an UI!
 
 # How to use
 
