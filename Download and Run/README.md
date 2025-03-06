@@ -77,7 +77,7 @@ To run the program, you need to install some dependency files that can be easily
 - Wait for the program to start-up in your browser. It should appear like this:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/251aab29-f000-4f16-a529-6a60ca1813a2" width="500" />
+  <img src="https://github.com/user-attachments/assets/8c448dfc-b88a-4e09-801a-d6619e6a3006" width="500" />
 </p>
 
 - Feel free to input any website. It should produce a brochure once the program has its processing completed.
@@ -88,6 +88,20 @@ To run the program, you need to install some dependency files that can be easily
   <img src="https://github.com/user-attachments/assets/9eab5810-7d75-4baf-b28e-7f9a0707ee3c" width="500" />
 </p>
 
+## Limitations:
+
+- Due to Llama 3.2 model's limitations, user might not get well-detailed content. You can try 2 to 3 times to see if you get a better brochure. If you want to try using other models, feel free to fork the repository and modify the code.
+- The sub-links should have well-structured names that relate to the title of their respective pages to help the LLM make accurate decisions. (for example: `https://www.anthropic.com/careers` would work but not `https://www.anthropic.com/434121`)
+- If you're using the offline Llama 3.2 model, the brochure generation may suffer from hallucinated content due to the token limit. This happens when the context window overflows with the scraped content. Using a more powerful LLM, like GPT-4o mini, could help mitigate this issue.
+- Abnormal results will be generated if you are not linking the main page of the website.
+- Some websites are blocked from scrapping and you will get "❌ Unable to fetch content. Please check the URL and try again. ❌" message.
+- Sometimes, the program might show "❌ No relevant links found. Try again. ❌" due to the LLM processing taking longer time in your local machine. You can try retrying after few seconds the same link to check.
+
+## License:
+This project is open-source and available under the MIT License.
+
+## Author notes
+If you liked this project, please leave a star! Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/nibras-sajjad/) if you would like to connect.
 
 
 
