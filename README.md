@@ -48,7 +48,7 @@ You can experiment with other LLM models instead of using Ollama (e.g. GPT-4). F
 https://github.com/nibrassajjad/Webpage-Descriptor-using-LLM/blob/main/Webpage%20Descriptor.ipynb
 
 # Limitations
-This is an experimental model in its early stages, so it may have some overlooked limitations. If you encounter any issues, feel free to reach out.
+This is an experimental model in its early stages, so it may have some overlooked limitations. If you encounter any issue, feel free to reach out.
 
 Known limitations:
 - If you are using the coded Llama 3.2 model, you might get not well-detailed content due to model's limitations. You can retry to see if you can get better brochure.
