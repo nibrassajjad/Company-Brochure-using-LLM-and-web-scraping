@@ -16,9 +16,9 @@ The codes has been tested to be working on
 
 ## How to start 
 
-- If this is your first time setting the program up, start from **Step 1** till **Step 6**.
+- If this is your first time setting up the program, complete **Step 1** through **Step 6**.
 
-- From next time onwards, just perform **Step 5** and **Step 6**.
+- For subsequent runs, just perform **Step 5** and **Step 6**.
 
 ## Step 1: Download & Install Python
 
@@ -33,7 +33,7 @@ Video tutorial on how to install Python:
 
 - Download Ollama for Windows from the [Ollama website](https://ollama.com/download)
 - Install Llama 3.2 model by opening command prompt (cmd) and entering the command `ollama run llama3`
-- You may exit/close the command prompt once the model is downloaded and the chatbot starts running inside.
+- Once the model is downloaded and the chatbot starts running, you can exit/close the command prompt.
 
 Video tutorial on how to install Llama 3.2:
 
@@ -41,10 +41,8 @@ Video tutorial on how to install Llama 3.2:
 
 ## Step 3: Download Python files from this Git folder
 
-- Download `environment.py` and `brochure_v2.py` in the same folder.
-
-
-- For example, for this tutorial we will download the files in **E:/brochure/**
+- Download `environment.py` and `brochure_v2.py` into the directory where you'll run the program.
+- For this tutorial, we'll download the files to **E:/brochure/**.
 
 ![image](https://github.com/user-attachments/assets/9190c9fa-cc18-4b3b-a182-465e5cdbd690)
 
@@ -64,7 +62,7 @@ To run the program, you need to install some dependency files that can be easily
 ## Step 5: Turn on Ollama
 
 - Search and open Ollama from your Windows Start menu.
-- You will know Ollama is turned on as it should appear on your notification corner of your task bar.
+- You will know Ollama is turned on when its icon appears in the taskbar’s notification area.
 <img src="https://github.com/user-attachments/assets/aebeffeb-01d7-4b2b-ace9-5c3f489f3e2c" align="center" width="250" />
 <img src="https://github.com/user-attachments/assets/c40dc0f7-21ae-402c-8c56-1d56ee0fe563" align="center" width="500" />
 
@@ -92,7 +90,7 @@ To run the program, you need to install some dependency files that can be easily
 
 - Due to Llama 3.2 model's limitations, user might not get well-detailed content. You can try 2 to 3 times to see if you get a better brochure. If you want to try using other models, feel free to fork the repository and modify the code.
 - The sub-links should have well-structured names that relate to the title of their respective pages to help the LLM make accurate decisions. (for example: `https://www.anthropic.com/careers` would work but not `https://www.anthropic.com/434121`)
-- If you're using the offline Llama 3.2 model, the brochure generation may suffer from hallucinated content due to the token limit. This happens when the context window overflows with the scraped content. Using a more powerful LLM, like GPT-4o mini, could help mitigate this issue.
+- The brochure generation may suffer from hallucinated content due to the token limit of Llama 3.2 model. This happens when the context window overflows with the scraped content. 
 - Abnormal results will be generated if you are not linking the main page of the website.
 - Some websites are blocked from scrapping and you will get "❌ Unable to fetch content. Please check the URL and try again. ❌" message.
 - Sometimes, the program might show "❌ No relevant links found. Try again. ❌" due to the LLM processing taking longer time in your local machine. You can try retrying after few seconds the same link to check.
