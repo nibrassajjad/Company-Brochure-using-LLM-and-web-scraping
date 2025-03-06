@@ -31,7 +31,7 @@ User just insert link to main page! The code will scrape through all the links i
 # How to use
 
 ## Option 1: Download and Run in your Computer (User-friendly mode)
-Go to [`Download an Run`](https://github.com/nibrassajjad/Company-Brochure-using-LLM-and-web-scraping/tree/main/Download%20and%20Run) folder and follow instructions inside the folder.
+Go to [`Download and Run`](https://github.com/nibrassajjad/Company-Brochure-using-LLM-and-web-scraping/tree/main/Download%20and%20Run) folder and follow instructions inside the folder.
 
 ## Option 2: In Jupyter Notebook/Jupyter Lab (Debug mode)
 Open file [`webpagebrochure.ipynb`](https://github.com/nibrassajjad/Company-Brochure-using-LLM-and-web-scraping/blob/main/webpagebrochure.ipynb) and run through the steps with instructions inside. **If you are using downloaded Llama 3.2 model, make sure it is turned on/activated in your computer.**
