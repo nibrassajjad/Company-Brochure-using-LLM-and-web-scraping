@@ -1,6 +1,8 @@
 # Download and Run in Windows (User-friendly mode)
 
-The code has been tested to be working on <img src="https://github.com/user-attachments/assets/6842589a-e622-4963-b0b9-6202b7946718" align="right" width="200" />
+The codes has been tested to be working on 
+
+<img src="https://github.com/user-attachments/assets/6842589a-e622-4963-b0b9-6202b7946718" align="right" width="200" />
 <img src="https://github.com/user-attachments/assets/66b1eea2-0d60-4d1f-9baa-cb7c1e5dfd1d" align="right" width="120" />
 <img src="https://github.com/user-attachments/assets/a63eb989-a832-42b4-bb8e-194bfe7bc2da" align="right" width="150" />
 
@@ -13,6 +15,10 @@ The code has been tested to be working on <img src="https://github.com/user-atta
 **LLM Model:** Llama 3.2 (Size: 2 GB)
 
 ## How to start 
+
+- If this is your first time setting the program up, start from **Step 1** till **Step 6**.
+
+- From next time onwards, just perform **Step 5** and **Step 6**.
 
 ## Step 1: Download & Install Python
 
@@ -27,6 +33,7 @@ Video tutorial on how to install Python:
 
 - Download Ollama for Windows from the [Ollama website](https://ollama.com/download)
 - Install Llama 3.2 model by opening command prompt (cmd) and entering the command `ollama run llama3`
+- You may exit/close the command prompt once the model is downloaded and the chatbot starts running inside.
 
 Video tutorial on how to install Llama 3.2:
 
@@ -39,6 +46,57 @@ Video tutorial on how to install Llama 3.2:
 
 - For example, for this tutorial we will download the files in **E:/brochure/**
 
-![image](https://github.com/user-attachments/assets/98aaa8ce-c524-47f8-814f-91d57a156de6)
+![image](https://github.com/user-attachments/assets/9190c9fa-cc18-4b3b-a182-465e5cdbd690)
+
+## Step 4: Setup virtual environment
+
+To run the program, you need to install some dependency files that can be easily done with one line in command prompt.
+
+**For tutorial I downloaded the python files in E:/brochure/** <img src="https://github.com/user-attachments/assets/350fdc2a-b748-452f-836d-1fee979378d4" align="right" width="300" />
+
+- Open command prompt.
+- Type & enter `E:` *(or whichever disk drive you saved the files in)*
+- Type & enter `cd brochure` *(or whichever directory you saved the files in)*
+- Type & enter `python environment.py`
+- Wait till environment is completely setup. You will see the message "Dependencies Installed."<img src="https://github.com/user-attachments/assets/906e51ff-1cf9-42bf-9083-0f8e0ad31b80" align="right" width="300" />
+- Close/exit the command prompt.
+
+## Step 5: Turn on Ollama
+
+- Search and open Ollama from your Windows Start menu.
+- You will know Ollama is turned on as it should appear on your notification corner of your task bar.
+<img src="https://github.com/user-attachments/assets/aebeffeb-01d7-4b2b-ace9-5c3f489f3e2c" align="center" width="250" />
+<img src="https://github.com/user-attachments/assets/c40dc0f7-21ae-402c-8c56-1d56ee0fe563" align="center" width="500" />
+
+## Step 6: Run the Program!
+
+- Open command prompt.
+- Type & enter `E:` *(or whichever disk drive you saved the files in)*
+- Type & enter `cd brochure` *(or whichever directory you saved the files in)*
+- Type & Enter `python brochure_v2.py` in the command prompt.
+- Wait for the program to start-up in your browser. It should appear like this:
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/251aab29-f000-4f16-a529-6a60ca1813a2" width="500" />
+</p>
+
+- Feel free to input any website. It should produce a brochure once the program has its processing completed.
+- To exit the program, press Ctrl + Break/Pause on the command prompt.
+- You can close the browser tab and exit the command prompt safely afterwards.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9eab5810-7d75-4baf-b28e-7f9a0707ee3c" width="500" />
+</p>
+
+
+
+
+
+
+
+
+
+
+
 
 
