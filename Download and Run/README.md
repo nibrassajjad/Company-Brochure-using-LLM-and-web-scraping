@@ -31,7 +31,7 @@ Video tutorial on how to install Python:
 
 ## Step 2: Download & Install Llama 3.2
 
-- Download Ollama for Windows from the [Ollama website](https://ollama.com/download)
+- Download and install Ollama for Windows from the [Ollama website](https://ollama.com/download)
 - Install Llama 3.2 model by opening command prompt (cmd) and entering the command `ollama run llama3`
 - Once the model is downloaded and the chatbot starts running, you can exit/close the command prompt.
 
