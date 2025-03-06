@@ -93,7 +93,7 @@ To run the program, you need to install some dependency files that can be easily
 - The brochure generation may suffer from hallucinated content due to the token limit of Llama 3.2 model. This happens when the context window overflows with the scraped content. 
 - Abnormal results will be generated if you are not linking the main page of the website.
 - Some websites are blocked from scrapping and you will get "❌ Unable to fetch content. Please check the URL and try again. ❌" message.
-- Sometimes, the program might show "❌ No relevant links found. Try again. ❌" due to the LLM processing taking longer time in your local machine. You can try retrying after few seconds the same link to check.
+- Sometimes, the program might show "❌ No relevant links found. Try again. ❌" due to the LLM processing taking longer time in your local machine or failing to fetch links. 
 
 ## License:
 This project is open-source and available under the MIT License.
