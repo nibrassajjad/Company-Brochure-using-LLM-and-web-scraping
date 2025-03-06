@@ -37,12 +37,14 @@ Go to [Download an Run](https://github.com/nibrassajjad/Company-Brochure-using-L
 Open file [`webpagebrochure.ipynb`](https://github.com/nibrassajjad/Company-Brochure-using-LLM-and-web-scraping/blob/main/webpagebrochure.ipynb) and run through the steps with instructions inside. **If you are using downloaded Llama 3.2 model, make sure it is turned on/activated in your computer.**
 
 # Installation prequisites
-- **Python 3.x**
+- **Python 3.x** [(Click here for video guide)](https://youtu.be/C3bOxcILGu4?si=xK9DHOaXPhrEGP1o)
 - **Required Python libraries:**
   beautifulsoup4 ollama urljoin requests gradio time
+- **Llama 3.2** [(Click here for video guide)](https://www.youtube.com/watch?v=LptVU0B6rt4)
 
 
-You can experiment with other LLM models instead of using Ollama (e.g. GPT-4). For quick guide on how to load models using API key refer to **Step 4b** of my code in:
+You can experiment with other LLM models instead of using Ollama (e.g. GPT-4). For quick guide on how to load models using API key you can use **Step 4b** of my code in another repository as reference:
+
 https://github.com/nibrassajjad/Webpage-Descriptor-using-LLM/blob/main/Webpage%20Descriptor.ipynb
 
 # Limitations
